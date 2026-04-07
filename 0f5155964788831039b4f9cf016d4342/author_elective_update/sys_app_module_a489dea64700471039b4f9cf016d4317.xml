@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Nowflix">ac7816224740471039b4f9cf016d432f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>list of Directors</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Actors</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1459133_nowflix_director</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 18:47:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a489dea64700471039b4f9cf016d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Directors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_update_name>sys_app_module_a489dea64700471039b4f9cf016d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 18:47:47</sys_updated_on>
+        <timeline_page/>
+        <title>Directors</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">0f5155964788831039b4f9cf016d4342</application>
+        <file_path/>
+        <instance_id>dac3c68f3bdcaa9016e44a8aa4e45ab8</instance_id>
+        <instance_name>dev303513</instance_name>
+        <name>sys_app_module_a489dea64700471039b4f9cf016d4317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Nowflix">ac7816224740471039b4f9cf016d432f</application><assessment/><device_type/><filter/><hint>list of Directors</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Actors</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1459133_nowflix_director</name><order>200</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-07 18:47:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a489dea64700471039b4f9cf016d4317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Directors</sys_name><sys_overrides/><sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package><sys_policy/><sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope><sys_update_name>sys_app_module_a489dea64700471039b4f9cf016d4317</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-07 18:47:47</sys_updated_on><timeline_page/><title>Directors</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1182735180</payload_hash>
+        <record_name>Directors</record_name>
+        <reverted_from/>
+        <source>159a1dd647c8831039b4f9cf016d43ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 18:47:47</sys_created_on>
+        <sys_id>2c8916a24740471039b4f9cf016d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d6945adb80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 18:47:47</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a489dea614004710cddd3bd168453f1a</update_guid>
+        <update_guid_history>a489dea614004710cddd3bd168453f1a:1182735180</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Directors">e73e52ea4740471039b4f9cf016d43b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 19:08:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1d21e0f9ec9644e58f401bae16477149</sys_id>
+        <sys_metadata>a489dea64700471039b4f9cf016d4317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Directors</sys_name>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_scope_delete display_value="">02419fa1cda84cf880314283972ad3a4</sys_scope_delete>
+        <sys_update_name>sys_app_module_a489dea64700471039b4f9cf016d4317</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a489dea64700471039b4f9cf016d4317">2c8916a24740471039b4f9cf016d4321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 19:08:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

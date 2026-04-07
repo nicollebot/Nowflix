@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f44225e64788071039b4f9cf016d4384" label="Media" max_length="40" name="x_1459133_nowflix_media" type="collection">
+        <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
+        <element label="Awards" max_length="250" name="awards" type="string"/>
+        <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
+        <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
+        <element label="Website" max_length="1024" name="website" type="url"/>
+        <element label="Poster" max_length="1024" name="poster" type="url"/>
+        <element label="Production" max_length="250" name="production" type="string"/>
+        <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
+        <element default="0" label="Averagy rating" max_length="255" name="averagy_rating" type="float"/>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
+        <element label="Genre" max_length="1024" name="genre" reference="x_1459133_nowflix_genre" type="glide_list"/>
+        <element label="Writers" max_length="4000" name="writers" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
+                <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
+                <element inactive_on_update="false" label="Episode" sequence="0" value="episode"/>
+            </choice>
+        </element>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element label="Country" max_length="250" name="country" type="string"/>
+        <element label="Language" max_length="250" name="language" type="string"/>
+    </element>
+</database>
