@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Suggestion">62ca702d4710031039b4f9cf016d43fb</catalog_item>
+        <catalog_variable>IO:a2cabc2d4710031039b4f9cf016d43e3</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:03:34</sys_created_on>
+        <sys_id>662145a94750031039b4f9cf016d4323</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>title</sys_name>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_662145a94750031039b4f9cf016d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:04:25</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Default mandatory fields">8df08d694750031039b4f9cf016d439b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>title</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=662145a94750031039b4f9cf016d4323"/>
+</record_update>

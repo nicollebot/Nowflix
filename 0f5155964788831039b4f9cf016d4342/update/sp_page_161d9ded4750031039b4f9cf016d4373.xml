@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>/* 1. Centraliza e diminui a largura da tabela */
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.col-md-12 {
+    max-width: 900px; /* Impede que a tabela fique gigante na tela */
+}
+
+/* 2. Estilo do Card (Tabela) */
+.panel {
+    background-color: rgba(255, 255, 255, 0.9) !important; /* Branco levemente transparente */
+    backdrop-filter: blur(5px); /* Efeito de vidro embaçado no fundo */
+    border: none !important;
+    border-radius: 15px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+    overflow: hidden;
+}
+
+/* 3. Cabeçalho da Tabela */
+.panel-heading {
+    background-color: #002b3d !important; /* Azul Shark */
+    padding: 20px !important;
+    border: none !important;
+}
+
+/* 4. Ajuste das linhas para não parecerem "amontoadas" */
+.table &gt; tbody &gt; tr &gt; td {
+    padding: 15px !important;
+    vertical-align: middle !important;
+    border-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 5. Efeito de destaque ao passar o mouse */
+.table &gt; tbody &gt; tr:hover {
+    background-color: rgba(0, 118, 168, 0.05) !important;
+    cursor: pointer;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>nowflix_page</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 22:05:37</sys_created_on>
+        <sys_id>161d9ded4750031039b4f9cf016d4373</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>nowflix_page</sys_name>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_update_name>sp_page_161d9ded4750031039b4f9cf016d4373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 22:38:12</sys_updated_on>
+        <title>Nowflix page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=161d9ded4750031039b4f9cf016d4373"/>
+</record_update>

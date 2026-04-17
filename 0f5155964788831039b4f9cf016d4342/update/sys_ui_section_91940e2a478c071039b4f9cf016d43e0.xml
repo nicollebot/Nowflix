@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:20</sys_created_on>
-            <sys_id>eb384e2247cc071039b4f9cf016d4348</sys_id>
+            <sys_created_on>2026-04-15 18:50:50</sys_created_on>
+            <sys_id>47e6a70147180b5039b4f9cf016d43cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1459133_nowflix_suggestion" sys_domain="global" view="Default view">91940e2a478c071039b4f9cf016d43e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:20</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>title</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:20</sys_created_on>
-            <sys_id>6b384e2247cc071039b4f9cf016d4349</sys_id>
+            <sys_created_on>2026-04-15 18:50:50</sys_created_on>
+            <sys_id>0fe6a70147180b5039b4f9cf016d43d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1459133_nowflix_suggestion" sys_domain="global" view="Default view">91940e2a478c071039b4f9cf016d43e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:20</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>opened_by</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:20</sys_created_on>
-            <sys_id>e7384e2247cc071039b4f9cf016d434a</sys_id>
+            <sys_created_on>2026-04-15 18:50:50</sys_created_on>
+            <sys_id>8be6a70147180b5039b4f9cf016d43d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1459133_nowflix_suggestion" sys_domain="global" view="Default view">91940e2a478c071039b4f9cf016d43e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:20</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:20</sys_created_on>
-            <sys_id>67384e2247cc071039b4f9cf016d434b</sys_id>
+            <sys_created_on>2026-04-15 18:50:50</sys_created_on>
+            <sys_id>0be6a70147180b5039b4f9cf016d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1459133_nowflix_suggestion" sys_domain="global" view="Default view">91940e2a478c071039b4f9cf016d43e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:20</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:50:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>state</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:20</sys_created_on>
-            <sys_id>e3384e2247cc071039b4f9cf016d434c</sys_id>
+            <sys_created_on>2026-04-15 18:50:50</sys_created_on>
+            <sys_id>87e6a70147180b5039b4f9cf016d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1459133_nowflix_suggestion" sys_domain="global" view="Default view">91940e2a478c071039b4f9cf016d43e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:20</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,27 @@
             <element>release_year</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-04-07 17:32:20</sys_created_on>
-            <sys_id>63384e2247cc071039b4f9cf016d434d</sys_id>
+            <sys_created_on>2026-04-15 18:50:50</sys_created_on>
+            <sys_id>07e6a70147180b5039b4f9cf016d43d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1459133_nowflix_suggestion" sys_domain="global" view="Default view">91940e2a478c071039b4f9cf016d43e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-04-07 17:32:20</sys_updated_on>
+            <sys_updated_on>2026-04-15 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-15 18:50:50</sys_created_on>
+            <sys_id>83e6a70147180b5039b4f9cf016d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1459133_nowflix_suggestion" sys_domain="global" view="Default view">91940e2a478c071039b4f9cf016d43e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-15 18:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

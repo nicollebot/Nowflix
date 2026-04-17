@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1459133_nowflix_suggestion</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}<br><br>Thank you for your suggestion ${type} ${title}.<br><br>It is Approved!&nbsp;</p>
+<p>&nbsp;</p>
+<p>If you want to send more suggestions click&nbsp;<a href="/sp?id=sc_cat_item&amp;sys_id=62ca702d4710031039b4f9cf016d43fb&amp;sysparm_category=f30fc3b64744c71039b4f9cf016d4334">here</a>.&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Suggestion Approved</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups name="Nowflix Administrators">e01255d64788831039b4f9cf016d43b3</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - ${media.title} Suggestion Approved</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-10 18:52:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d017b9ab47440f1039b4f9cf016d4342</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Suggestion Approved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_update_name>sysevent_email_action_d017b9ab47440f1039b4f9cf016d4342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:47:45</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">0f5155964788831039b4f9cf016d4342</application>
+        <file_path/>
+        <instance_id>dac3c68f3bdcaa9016e44a8aa4e45ab8</instance_id>
+        <instance_name>dev303513</instance_name>
+        <name>sysevent_email_action_d017b9ab47440f1039b4f9cf016d4342</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_1459133_nowflix_suggestion&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;triggered&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hello ${opened_by.first_name}&lt;br&gt;&lt;br&gt;Thank you for your suggestion ${type} ${title}.&lt;br&gt;&lt;br&gt;It is Approved!&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;If you want to send more suggestions click&amp;nbsp;&lt;a href="/sp?id=sc_cat_item&amp;amp;sys_id=62ca702d4710031039b4f9cf016d43fb&amp;amp;sysparm_category=f30fc3b64744c71039b4f9cf016d4334"&gt;here&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Suggestion Approved&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;opened_by&lt;/recipient_fields&gt;&lt;recipient_groups name="Nowflix Administrators"&gt;e01255d64788831039b4f9cf016d43b3&lt;/recipient_groups&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;${number} - ${media.title} Suggestion Approved&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-10 18:52:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d017b9ab47440f1039b4f9cf016d4342&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Suggestion Approved&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Nowflix" source="x_1459133_nowflix"&gt;0f5155964788831039b4f9cf016d4342&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Nowflix"&gt;0f5155964788831039b4f9cf016d4342&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_d017b9ab47440f1039b4f9cf016d4342&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-16 20:47:45&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-68585367</payload_hash>
+        <record_name>Suggestion Approved</record_name>
+        <reverted_from/>
+        <source>159a1dd647c8831039b4f9cf016d43ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:47:45</sys_created_on>
+        <sys_id>e54b41ad4790031039b4f9cf016d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d980cbea60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 20:47:45</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>654b41ad749003100ace4770634cb3c6</update_guid>
+        <update_guid_history>654b41ad749003100ace4770634cb3c6:-68585367,591b01adad900310a0691e5bc929f5fa:-757862931,1da985e90e900310d8d946db5306d45f:-594987453,cdfa3deb8e440f10b789f9710d5532ce:211370631,2308392f66440f101b01cb971f599340:977246040,b47775ebdc440f102fffdedfe4e775ce:-1239601064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 21:11:37</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>0884a9b577784e5087b73937e64d9e40</sys_id>
+        <sys_metadata>d017b9ab47440f1039b4f9cf016d4342</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggestion Approved</sys_name>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_parent display_value="Suggestion">4994066a478c071039b4f9cf016d4318</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_scope_delete display_value="">02419fa1cda84cf880314283972ad3a4</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_d017b9ab47440f1039b4f9cf016d4342</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_d017b9ab47440f1039b4f9cf016d4342">e54b41ad4790031039b4f9cf016d43c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 21:11:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

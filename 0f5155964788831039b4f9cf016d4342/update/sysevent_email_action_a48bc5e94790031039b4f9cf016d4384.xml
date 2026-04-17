@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1459133_nowflix_suggestion</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
+<div style="background-color: #002b3d; padding: 20px; text-align: center;">
+<h1 style="color: #ffffff; margin: 0; font-size: 24px;">Nowflix | Approval Confirmation</h1>
+</div>
+<div style="padding: 30px; color: #333333; line-height: 1.6;">
+<h2 style="color: #0076a8;">Hello, ${opened_by.first_name}! ]]>🎬<![CDATA[</h2>
+<p>Thank you for your suggestion! We are happy to inform you that the following content has been <strong>Approved</strong>:</p>
+<div style="background-color: #f9f9f9; padding: 15px; border-left: 4px solid #0076a8; margin: 20px 0;">
+<p style="margin: 5px 0;"><strong>Type:</strong> ${type}</p>
+<p style="margin: 5px 0;"><strong>Title:</strong> ${title}</p>
+</div>
+<p>Our system is now automatically fetching more details. If you would like to send more suggestions, please click the button below:</p>
+<div style="text-align: center; margin-top: 30px;"><a style="background-color: #0076a8; color: #ffffff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;" href="https://dev303513.service-now.com/sp?id=sc_cat_item&amp;sys_id=62ca702d4710031039b4f9cf016d43fb&amp;sysparm_category=f30fc3b64744c71039b4f9cf016d4334"> Click here to suggest more </a></div>
+</div>
+<div style="background-color: #f4f4f4; padding: 15px; text-align: center; font-size: 12px; color: #777777;">
+<p style="margin: 0;">This is an automated message from Shark Academy | Nowflix.</p>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Suggestion Approved</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups name="Nowflix Administrators">e01255d64788831039b4f9cf016d43b3</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - ${media.title} Suggestion Approved</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 20:48:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a48bc5e94790031039b4f9cf016d4384</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Suggestion Approved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_update_name>sysevent_email_action_a48bc5e94790031039b4f9cf016d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 21:12:49</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

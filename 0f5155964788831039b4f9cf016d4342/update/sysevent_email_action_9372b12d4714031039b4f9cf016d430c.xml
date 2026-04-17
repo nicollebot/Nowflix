@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1459133_nowflix_media</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
+<div style="background-color: #b30000; padding: 20px; text-align: center;">
+<h1 style="color: #ffffff; margin: 0; font-size: 24px;">Nowflix | Integration Failure</h1>
+</div>
+<div style="padding: 30px; color: #333333; line-height: 1.6;">
+<h2 style="color: #b30000;">System Alert ⚠️</h2>
+<p>Hello, we encountered an issue while trying to process a media record.</p>
+<p>The <strong>${type}</strong> named <strong>${title}</strong> failed to integrate with the OMDB API.</p>
+<div style="background-color: #fff5f5; padding: 15px; border-left: 4px solid #b30000; margin: 20px 0;">
+<p style="margin: 5px 0;"><strong>Error Message:</strong> ${integration_error_message}</p>
+</div>
+<p>Please check the media record to investigate the cause and re-trigger the integration if necessary.</p>
+<div style="text-align: center; margin-top: 30px;"><a style="background-color: #4a4a4a; color: #ffffff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;" href="${URI_REF}"> View Media Record </a></div>
+</div>
+<div style="background-color: #f4f4f4; padding: 15px; text-align: center; font-size: 12px; color: #777777;">
+<p style="margin: 0;">This is an automated system notification from Nowflix Integration Engine.</p>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Integration Failure</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Nowflix Administrators">e01255d64788831039b4f9cf016d43b3</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${title} - Integration Failure</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 23:40:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9372b12d4714031039b4f9cf016d430c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Integration Failure</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_update_name>sysevent_email_action_9372b12d4714031039b4f9cf016d430c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 23:53:13</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
