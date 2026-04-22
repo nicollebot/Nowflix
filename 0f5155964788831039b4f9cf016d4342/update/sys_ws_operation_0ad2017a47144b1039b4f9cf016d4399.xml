@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create / Update Media</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var media_array = request.body.data;
+
+    if (JSON.stringify(media_array) == "{}") {
+        response.setStatus(400);
+        return "Nenhuma media foi recebida.";
+    }
+    if (media_array.length == 0) {
+        response.setStatus(400);
+        return "Nenhuma media foi recebida.";
+    }
+    //gs.info(JSON.stringify(media_array));
+    try {
+        var inputs = {};
+        inputs['media_array'] = media_array;
+
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_1459133_nowflix.media_inbound').inForeground().withInputs(inputs).run();
+
+        var outputs = result.getOutputs();
+
+        return outputs;
+
+        //return "OK";
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+
+        return message;
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1459133_nowflix/omdb/create_update_media</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/create_update_media</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-20 17:25:06</sys_created_on>
+        <sys_id>0ad2017a47144b1039b4f9cf016d4399</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create / Update Media</sys_name>
+        <sys_package display_value="Nowflix" source="x_1459133_nowflix">0f5155964788831039b4f9cf016d4342</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0f5155964788831039b4f9cf016d4342</sys_scope>
+        <sys_update_name>sys_ws_operation_0ad2017a47144b1039b4f9cf016d4399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 02:18:25</sys_updated_on>
+        <web_service_definition display_value="OMDB">d2c101f647144b1039b4f9cf016d4351</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

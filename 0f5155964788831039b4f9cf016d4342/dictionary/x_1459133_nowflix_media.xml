@@ -31,6 +31,7 @@
             <choice>
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="300" value="7"/>
             </choice>
         </element>
         <element label="Country" max_length="250" name="country" type="string"/>
